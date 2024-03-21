@@ -1,0 +1,143 @@
+    *
+    {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .container
+    {
+        height:100vh;
+        width:100vw;
+        background-color: rgb(7, 7, 7);
+        display: flex;
+        justify-content: center;
+    }
+
+    .da1 
+    {
+        width:400px;
+        height:500px;
+        margin:40px auto;
+        border-radius: 35px;
+        background:linear-gradient(135deg,#00feba,#5b548a);
+    }
+
+    .d1 
+    {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top:30px;
+    }
+
+    #inp1
+    {
+        width:250px;
+        border-radius: 30px;
+        border:none;
+        outline: none;
+    }
+
+    #inp1::placeholder
+    {
+        padding:15px;
+    }
+
+    .circle1
+    {
+        border-radius: 50%;
+        background-color: white;
+        width:120px;
+        height:50px;
+        width: 41px;
+        height: 42px;
+        position:relative;
+    }
+
+    .img1 
+    {
+        width:13px;
+        position: absolute;
+        top: 13px;
+        left: 13px;
+    }
+
+    .img2 
+    {
+        width:140px;
+    }
+
+    .d2 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .da2 
+    {
+        margin-top: 20px;
+    }
+
+    .temp
+    {
+        text-align: center;
+        color:white;
+        font-size: 50px;
+        font-weight:600;
+    }
+
+    .pa1 
+    {
+        text-align: center;
+        color:white;
+        font-size: 34px;
+    }
+
+    .details
+    {
+        /* border:1px solid black; */
+        margin-top: 75px;
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .da3 
+    {
+        display: flex;
+        align-items: center;
+    }
+
+    .img3 
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+    .da4 
+    {
+        margin-left: 10px;
+    }
+
+    .da5 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pa2 
+    {
+        color:white;
+        font-weight:600;
+        font-size: 20px;
+    }
+
+    .pa3 
+    {
+        color:white;
+        font-size:14px; 
+    }
